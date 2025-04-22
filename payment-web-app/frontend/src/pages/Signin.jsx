@@ -13,7 +13,6 @@ export const Signin = () => {
         <InputBox placeholder="azizabdul04327@gmail.com" label={"Email"} />
         <InputBox placeholder="123456" label={"Password"} />
         <div className="pt-4">
-          <Button label={"Sign in"} />
         </div>
         <BottomWarning label={"Don't have an account?"} buttonText={"Sign up"} to={"/signup"} />
       </div>
