@@ -36,6 +36,7 @@ export const Signup = () => {
             const response = await axios.post("http://localhost:3000/api/v1/user/signup", {
               username,
               firstName,
+              lastName,
               password
             });
             localStorage.setItem("token", response.data.token)
