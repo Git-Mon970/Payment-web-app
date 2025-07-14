@@ -2,12 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose.connect("mongodb+srv://hussain:4AMbUQzRBV1vtWIC@cluster0.cj6mh5k.mongodb.net/paytm2");
 
-const userSchema  = mongoose.Schema({
-    username : String, 
-    password : String,
-    firstName : String, 
-    lastName : String
-});
+
 
 const accountSchema =  mongoose.Schema({
     userId: {
